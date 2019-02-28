@@ -25,5 +25,5 @@
 ### Additional Information
 
 * Potential mentor(s): [NAME](https://)
-<!-- * Organsation website https:// -->
-<!-- * Communication channels -->
+* Organization website: https://
+* Communication channels: https://******.zulipchat.com
