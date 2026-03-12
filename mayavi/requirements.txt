@@ -1,0 +1,5 @@
+ifcopenshell
+voxec
+numpy
+pyvista
+# Blender specific (only if running in Blender, but for shipping we don't list Blender itself)
