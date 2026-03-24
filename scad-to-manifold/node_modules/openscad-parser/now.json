@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "name": "openscad-parser",
+  "alias": "openscad-parser.albert-koczy.com",
+  "builds": [
+    {
+      "src": "./build-docs.sh",
+      "use": "@now/static-build",
+      "config": { "distDir": "docs" }
+    }
+  ]
+}

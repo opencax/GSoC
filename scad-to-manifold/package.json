@@ -1,0 +1,25 @@
+{
+  "name": "scad-to-manifold",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "compile-scad": "node cli.js",
+    "test": "node test-compiler.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@types/yargs": "^17.0.35",
+    "openscad-parser": "^0.6.3",
+    "yargs": "^18.0.0"
+  }
+}
