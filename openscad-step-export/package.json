@@ -1,0 +1,25 @@
+{
+  "name": "openscad-step-export",
+  "version": "1.0.0",
+  "description": "OpenSCAD STEP format export — GSoC 2025 project for OpenCAx",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/tests/run-all-tests.js",
+    "export": "node dist/cli.js",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": ["openscad", "step", "cad", "export", "brep", "gsoc"],
+  "author": "GSoC 3D-CAD",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "openscad-parser": "^0.6.3",
+    "yargs": "^18.0.0",
+    "@types/yargs": "^17.0.35"
+  }
+}
