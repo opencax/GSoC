@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "compile-scad": "node cli.js",
-    "test": "node test-compiler.js"
+    "test": "node test-compiler.js && node test-step-export.js"
   },
   "keywords": [],
   "author": "",
