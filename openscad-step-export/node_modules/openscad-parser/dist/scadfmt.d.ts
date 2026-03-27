@@ -1,2 +1,0 @@
-#!/bin/env node
-export {};
