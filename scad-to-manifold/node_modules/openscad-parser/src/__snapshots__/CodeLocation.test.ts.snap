@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CodeLocation stringifies itself and matches snapshot 1`] = `"file 's' line 5 column 9'"`;
